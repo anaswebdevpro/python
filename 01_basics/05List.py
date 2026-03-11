@@ -19,3 +19,13 @@ print(r2)
 r1[0]=100
 print(r1)
 print(r2)
+
+
+
+# comprehesive way to generate a list
+# syntax:
+# [expression for item in iterable if condition]
+
+# example:
+squares = [x**2 for x in range(10)]
+print(squares)
